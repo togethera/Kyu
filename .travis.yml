@@ -1,4 +1,4 @@
 language: objective-c
 xcode_workspace: Kyu.xcworkspace
-xcode_scheme: KyuTests
+xcode_scheme: Kyu
 osx_image: xcode7.3
