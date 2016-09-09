@@ -25,6 +25,8 @@ pod 'Kyu/iOS', :git => 'TODO'
 
 ## State
 
+[![Build Status](https://travis-ci.org/togethera/Kyu.svg?branch=master)](https://travis-ci.org/togethera/Kyu)
+
 Kyu **is** being used in production however I’ve set the current version to 0.9 as I’m not 100% happy with the API and will expect it to change.
 
 ## Example
