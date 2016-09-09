@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4113D5D1C14859E00B10D37 /* KyuPerformanceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4113D5C1C14859E00B10D37 /* KyuPerformanceTest.swift */; };
+		A41E5A391D2407B700ADCDB0 /* KyuJobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43582931D1BE6B900716ECF /* KyuJobViewModel.swift */; };
+		A41E5A3A1D2407BA00ADCDB0 /* KyuWorkerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46CDC281D1950F3004E0F31 /* KyuWorkerViewModel.swift */; };
+		A41E5A3B1D2407BD00ADCDB0 /* KyuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46CDC261D194CDC004E0F31 /* KyuViewModel.swift */; };
+		A41E5A3C1D2407C700ADCDB0 /* KyuJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A394F1C415A9B008DEB73 /* KyuJob.swift */; };
+		A41E5A3D1D2407CA00ADCDB0 /* KyuWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465061A1BF77A0300667A22 /* KyuWorker.swift */; };
+		A41E5A3E1D2407CD00ADCDB0 /* Kyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46506161BF776E700667A22 /* Kyu.swift */; };
+		A41E5A401D241FF800ADCDB0 /* KyuJobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41E5A3F1D241FF800ADCDB0 /* KyuJobDetailsViewController.swift */; };
+		A435828E1D19CEBC00716ECF /* KyuJobsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A435828D1D19CEBC00716ECF /* KyuJobsListViewController.swift */; };
+		A43582941D1BE6B900716ECF /* KyuJobViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43582931D1BE6B900716ECF /* KyuJobViewModel.swift */; };
+		A43AB42C1D198CA60081ED57 /* KyuWorkersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43AB42B1D198CA60081ED57 /* KyuWorkersListViewController.swift */; };
+		A46506171BF776E700667A22 /* Kyu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46506161BF776E700667A22 /* Kyu.swift */; };
+		A46506191BF7771A00667A22 /* KyuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46506181BF7771A00667A22 /* KyuTests.swift */; };
+		A465061B1BF77A0300667A22 /* KyuWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A465061A1BF77A0300667A22 /* KyuWorker.swift */; };
+		A46CDC271D194CDC004E0F31 /* KyuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46CDC261D194CDC004E0F31 /* KyuViewModel.swift */; };
+		A46CDC291D1950F3004E0F31 /* KyuWorkerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46CDC281D1950F3004E0F31 /* KyuWorkerViewModel.swift */; };
+		A46D7AB51B2DDD62009D454E /* Kyu.h in Headers */ = {isa = PBXBuildFile; fileRef = A46D7AB41B2DDD62009D454E /* Kyu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A46D7ABB1B2DDD62009D454E /* Kyu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46D7AAF1B2DDD62009D454E /* Kyu.framework */; };
+		A48765E11C6A8C7700872FB8 /* KyuJobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48765E01C6A8C7700872FB8 /* KyuJobTests.swift */; };
+		A49A39501C415A9B008DEB73 /* KyuJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A394F1C415A9B008DEB73 /* KyuJob.swift */; };
+		A4DA191F1D19857900E5CC64 /* Kyu iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A4DA191E1D19857900E5CC64 /* Kyu iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DA19251D1985E100E5CC64 /* Kyu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46D7AAF1B2DDD62009D454E /* Kyu.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A46D7ABC1B2DDD62009D454E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A46D7AA61B2DDD62009D454E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A46D7AAE1B2DDD62009D454E;
+			remoteInfo = Kyu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4113D5C1C14859E00B10D37 /* KyuPerformanceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuPerformanceTest.swift; sourceTree = "<group>"; };
+		A41E5A3F1D241FF800ADCDB0 /* KyuJobDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuJobDetailsViewController.swift; sourceTree = "<group>"; };
+		A435828D1D19CEBC00716ECF /* KyuJobsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuJobsListViewController.swift; sourceTree = "<group>"; };
+		A43582931D1BE6B900716ECF /* KyuJobViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuJobViewModel.swift; sourceTree = "<group>"; };
+		A43AB42B1D198CA60081ED57 /* KyuWorkersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuWorkersListViewController.swift; sourceTree = "<group>"; };
+		A46506161BF776E700667A22 /* Kyu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kyu.swift; sourceTree = "<group>"; };
+		A46506181BF7771A00667A22 /* KyuTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuTests.swift; sourceTree = "<group>"; };
+		A465061A1BF77A0300667A22 /* KyuWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuWorker.swift; sourceTree = "<group>"; };
+		A46CDC261D194CDC004E0F31 /* KyuViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuViewModel.swift; sourceTree = "<group>"; };
+		A46CDC281D1950F3004E0F31 /* KyuWorkerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuWorkerViewModel.swift; sourceTree = "<group>"; };
+		A46D7AAF1B2DDD62009D454E /* Kyu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kyu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46D7AB31B2DDD62009D454E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46D7AB41B2DDD62009D454E /* Kyu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kyu.h; sourceTree = "<group>"; };
+		A46D7ABA1B2DDD62009D454E /* KyuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KyuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46D7AC01B2DDD62009D454E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A48765E01C6A8C7700872FB8 /* KyuJobTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuJobTests.swift; sourceTree = "<group>"; };
+		A49A394F1C415A9B008DEB73 /* KyuJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KyuJob.swift; sourceTree = "<group>"; };
+		A4DA191C1D19857900E5CC64 /* Kyu_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kyu_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4DA191E1D19857900E5CC64 /* Kyu iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kyu iOS.h"; sourceTree = "<group>"; };
+		A4DA19201D19857900E5CC64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A46D7AAB1B2DDD62009D454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46D7AB71B2DDD62009D454E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46D7ABB1B2DDD62009D454E /* Kyu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA19181D19857900E5CC64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DA19251D1985E100E5CC64 /* Kyu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A46CDC251D194CBB004E0F31 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A46CDC261D194CDC004E0F31 /* KyuViewModel.swift */,
+				A46CDC281D1950F3004E0F31 /* KyuWorkerViewModel.swift */,
+				A43582931D1BE6B900716ECF /* KyuJobViewModel.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		A46D7AA51B2DDD62009D454E = {
+			isa = PBXGroup;
+			children = (
+				A46D7AB11B2DDD62009D454E /* Kyu */,
+				A4DA191D1D19857900E5CC64 /* Kyu iOS */,
+				A46D7ABE1B2DDD62009D454E /* KyuTests */,
+				A46D7AB01B2DDD62009D454E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A46D7AB01B2DDD62009D454E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46D7AAF1B2DDD62009D454E /* Kyu.framework */,
+				A46D7ABA1B2DDD62009D454E /* KyuTests.xctest */,
+				A4DA191C1D19857900E5CC64 /* Kyu_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46D7AB11B2DDD62009D454E /* Kyu */ = {
+			isa = PBXGroup;
+			children = (
+				A46D7AB41B2DDD62009D454E /* Kyu.h */,
+				A46506161BF776E700667A22 /* Kyu.swift */,
+				A465061A1BF77A0300667A22 /* KyuWorker.swift */,
+				A49A394F1C415A9B008DEB73 /* KyuJob.swift */,
+				A46CDC251D194CBB004E0F31 /* View Models */,
+				A46D7AB21B2DDD62009D454E /* Supporting Files */,
+			);
+			path = Kyu;
+			sourceTree = "<group>";
+		};
+		A46D7AB21B2DDD62009D454E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A46D7AB31B2DDD62009D454E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A46D7ABE1B2DDD62009D454E /* KyuTests */ = {
+			isa = PBXGroup;
+			children = (
+				A46506181BF7771A00667A22 /* KyuTests.swift */,
+				A4113D5C1C14859E00B10D37 /* KyuPerformanceTest.swift */,
+				A48765E01C6A8C7700872FB8 /* KyuJobTests.swift */,
+				A46D7ABF1B2DDD62009D454E /* Supporting Files */,
+			);
+			path = KyuTests;
+			sourceTree = "<group>";
+		};
+		A46D7ABF1B2DDD62009D454E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A46D7AC01B2DDD62009D454E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4DA191D1D19857900E5CC64 /* Kyu iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A43AB42B1D198CA60081ED57 /* KyuWorkersListViewController.swift */,
+				A435828D1D19CEBC00716ECF /* KyuJobsListViewController.swift */,
+				A41E5A3F1D241FF800ADCDB0 /* KyuJobDetailsViewController.swift */,
+				A4DA191E1D19857900E5CC64 /* Kyu iOS.h */,
+				A4DA19201D19857900E5CC64 /* Info.plist */,
+			);
+			path = "Kyu iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A46D7AAC1B2DDD62009D454E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46D7AB51B2DDD62009D454E /* Kyu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA19191D19857900E5CC64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4DA191F1D19857900E5CC64 /* Kyu iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A46D7AAE1B2DDD62009D454E /* Kyu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46D7AC51B2DDD62009D454E /* Build configuration list for PBXNativeTarget "Kyu" */;
+			buildPhases = (
+				A46D7AAA1B2DDD62009D454E /* Sources */,
+				A46D7AAB1B2DDD62009D454E /* Frameworks */,
+				A46D7AAC1B2DDD62009D454E /* Headers */,
+				A46D7AAD1B2DDD62009D454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kyu;
+			productName = Kyu;
+			productReference = A46D7AAF1B2DDD62009D454E /* Kyu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A46D7AB91B2DDD62009D454E /* KyuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46D7AC81B2DDD62009D454E /* Build configuration list for PBXNativeTarget "KyuTests" */;
+			buildPhases = (
+				A46D7AB61B2DDD62009D454E /* Sources */,
+				A46D7AB71B2DDD62009D454E /* Frameworks */,
+				A46D7AB81B2DDD62009D454E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A46D7ABD1B2DDD62009D454E /* PBXTargetDependency */,
+			);
+			name = KyuTests;
+			productName = KyuTests;
+			productReference = A46D7ABA1B2DDD62009D454E /* KyuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4DA191B1D19857900E5CC64 /* Kyu_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4DA19211D19857900E5CC64 /* Build configuration list for PBXNativeTarget "Kyu_iOS" */;
+			buildPhases = (
+				A4DA19171D19857900E5CC64 /* Sources */,
+				A4DA19181D19857900E5CC64 /* Frameworks */,
+				A4DA19191D19857900E5CC64 /* Headers */,
+				A4DA191A1D19857900E5CC64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kyu_iOS;
+			productName = "Kyu iOS";
+			productReference = A4DA191C1D19857900E5CC64 /* Kyu_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A46D7AA61B2DDD62009D454E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Red Davis";
+				TargetAttributes = {
+					A46D7AAE1B2DDD62009D454E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A46D7AB91B2DDD62009D454E = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					A4DA191B1D19857900E5CC64 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A46D7AA91B2DDD62009D454E /* Build configuration list for PBXProject "Kyu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A46D7AA51B2DDD62009D454E;
+			productRefGroup = A46D7AB01B2DDD62009D454E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A46D7AAE1B2DDD62009D454E /* Kyu */,
+				A4DA191B1D19857900E5CC64 /* Kyu_iOS */,
+				A46D7AB91B2DDD62009D454E /* KyuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A46D7AAD1B2DDD62009D454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46D7AB81B2DDD62009D454E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA191A1D19857900E5CC64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A46D7AAA1B2DDD62009D454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46CDC291D1950F3004E0F31 /* KyuWorkerViewModel.swift in Sources */,
+				A49A39501C415A9B008DEB73 /* KyuJob.swift in Sources */,
+				A43582941D1BE6B900716ECF /* KyuJobViewModel.swift in Sources */,
+				A46506171BF776E700667A22 /* Kyu.swift in Sources */,
+				A46CDC271D194CDC004E0F31 /* KyuViewModel.swift in Sources */,
+				A465061B1BF77A0300667A22 /* KyuWorker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A46D7AB61B2DDD62009D454E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4113D5D1C14859E00B10D37 /* KyuPerformanceTest.swift in Sources */,
+				A48765E11C6A8C7700872FB8 /* KyuJobTests.swift in Sources */,
+				A46506191BF7771A00667A22 /* KyuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DA19171D19857900E5CC64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A435828E1D19CEBC00716ECF /* KyuJobsListViewController.swift in Sources */,
+				A41E5A3B1D2407BD00ADCDB0 /* KyuViewModel.swift in Sources */,
+				A41E5A3D1D2407CA00ADCDB0 /* KyuWorker.swift in Sources */,
+				A43AB42C1D198CA60081ED57 /* KyuWorkersListViewController.swift in Sources */,
+				A41E5A3C1D2407C700ADCDB0 /* KyuJob.swift in Sources */,
+				A41E5A3E1D2407CD00ADCDB0 /* Kyu.swift in Sources */,
+				A41E5A3A1D2407BA00ADCDB0 /* KyuWorkerViewModel.swift in Sources */,
+				A41E5A391D2407B700ADCDB0 /* KyuJobViewModel.swift in Sources */,
+				A41E5A401D241FF800ADCDB0 /* KyuJobDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A46D7ABD1B2DDD62009D454E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A46D7AAE1B2DDD62009D454E /* Kyu */;
+			targetProxy = A46D7ABC1B2DDD62009D454E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A46D7AC31B2DDD62009D454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A46D7AC41B2DDD62009D454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A46D7AC61B2DDD62009D454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Kyu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		A46D7AC71B2DDD62009D454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Kyu/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "macosx iphonesimulator iphoneos";
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+		A46D7AC91B2DDD62009D454E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KyuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A46D7ACA1B2DDD62009D454E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = KyuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4DA19221D19857900E5CC64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Kyu iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Kyu-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4DA19231D19857900E5CC64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Kyu iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.reddavis.Kyu-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A46D7AA91B2DDD62009D454E /* Build configuration list for PBXProject "Kyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46D7AC31B2DDD62009D454E /* Debug */,
+				A46D7AC41B2DDD62009D454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46D7AC51B2DDD62009D454E /* Build configuration list for PBXNativeTarget "Kyu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46D7AC61B2DDD62009D454E /* Debug */,
+				A46D7AC71B2DDD62009D454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46D7AC81B2DDD62009D454E /* Build configuration list for PBXNativeTarget "KyuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46D7AC91B2DDD62009D454E /* Debug */,
+				A46D7ACA1B2DDD62009D454E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4DA19211D19857900E5CC64 /* Build configuration list for PBXNativeTarget "Kyu_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4DA19221D19857900E5CC64 /* Debug */,
+				A4DA19231D19857900E5CC64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A46D7AA61B2DDD62009D454E /* Project object */;
+}
