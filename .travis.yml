@@ -1,0 +1,4 @@
+language: objective-c
+xcode_project: Kyu.xcodeproj
+xcode_scheme: KyuTests
+osx_image: xcode7.3
