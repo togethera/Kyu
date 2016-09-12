@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.11"
 
-  s.source       = { :git => "http://github.com/reddavis/kyu.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/togethera/Kyu.git", :tag => "#{s.version}" }
 
   s.subspec 'Core' do |core|
     core.source_files = ['Kyu']
